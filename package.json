@@ -1,0 +1,26 @@
+{
+  "name": "msavvy-social-network-api",
+  "version": "1.0.0",
+  "description": "a social network api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoSaverino/Msavvy-Social-Network-API.git"
+  },
+  "author": "Msaverino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcoSaverino/Msavvy-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/MarcoSaverino/Msavvy-Social-Network-API#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.4"
+  }
+}
